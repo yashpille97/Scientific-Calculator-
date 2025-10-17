@@ -3,21 +3,24 @@ try:
     if a=='1':
         import math
         o=int(input('enter the operation(sine(3),cos(4),log value (5),square root (6)'))
+
         if o==3:
-            float(input('Enter number:'))
-            sine_value = math.sin(o)
+            a=float(input('Enter number:'))
+            b=a/57.296
+            sine_value = math.sin(b)
             print(sine_value)
         elif o==4:
-            float(input('Enter number:'))
-            cosine_value = math.cos(o)
+            a=float(input('Enter number:'))
+            b=a/57.296
+            cosine_value = math.cos(b)
             print(cosine_value)
         elif o==5:
-            float(input('Enter number:'))
-            log_value = math.log(o)
+            a= float(input('Enter number:'))
+            log_value = math.log(a)
             print(log_value)
         elif o==6:
-            float(input('Enter number:'))
-            square_root = math.sqrt(o)
+            a = float(input('Enter number:'))
+            square_root = math.sqrt(a)
             print(square_root)
         else:
             print('none')
@@ -46,4 +49,8 @@ try:
 
 except ValueError:
     print('Invalid input')
+
+
+
+
 
